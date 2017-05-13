@@ -1,0 +1,52 @@
+h2 {
+  font-family: arial;
+  font-size: 35px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: breath infinite 5s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: green;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  font-size: large;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes breath {
+  0% {
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  60% {
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
