@@ -1,5 +1,4 @@
 import React from 'react';
-import './Task.css';
 import TaskForm from './TaskForm';
 import TaskList from './TaskList';
 

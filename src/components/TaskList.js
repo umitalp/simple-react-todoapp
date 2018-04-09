@@ -1,5 +1,4 @@
 import React from 'react';
-import './Task.css';
 
 export default class TaskList extends React.Component {
 	constructor(props) {

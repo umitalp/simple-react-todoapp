@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import TodoApp from './components/TodoApp' 
+import Navbar from './components/Navbar/Navbar' 
 import './App.css';
 
 class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Todo App</h2>
-        </div>
+      <div className="container">
+          <Navbar />
           <TodoApp />
+          <Route exact path="/" component={Home}/>
+          <Route path="/about" component={About}/>
+          <Route path="/topics" component={Topics}/>
       </div>
     );
   }
